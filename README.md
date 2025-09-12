@@ -24,3 +24,15 @@ Learn more about plugins [IonTrader Plugins](https://iontrader.com/plugins/).
 - CMake >= 3.16.
 - RapidJSON library.
 - Alfa Core Server headers and structures.
+
+
+---
+
+## Example Configuration
+
+The plugin configuration is provided in JSON format. Below is an example:
+
+```json
+{
+  "track_logins": [391, 389, 390]
+}

@@ -16,8 +16,8 @@ The plugin uses **RapidJSON** for configuration parsing and is designed to be dy
 
 ## Requirements
 
-- **Platform:** Linux Ubuntu 24.04 (x86_64)
-- C++20 compatible compiler (Clang/GCC/MSVC)
-- CMake >= 3.16
-- RapidJSON library
-- Alfa Core Server headers and structures
+- **Platform:** Linux Ubuntu 24.04 (x86_64).
+- C++20 compatible compiler (Clang/GCC/MSVC).
+- CMake >= 3.16.
+- RapidJSON library.
+- Alfa Core Server headers and structures.

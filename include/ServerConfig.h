@@ -18,5 +18,5 @@ public:
 private:
     std::vector<int> _track_logins;
 
-    void parseConfig(rapidjson::Value& json_config);
+    void ParseConfig(rapidjson::Value& json_config);
 };

@@ -2,7 +2,7 @@
 
 ServerConfig::ServerConfig(rapidjson::Value& json_config)
     : _track_logins() {
-    parseConfig(json_config);
+    ParseConfig(json_config);
 
     std::cout << "[ServerConfig]: tracked logins:" << std::endl;
 
@@ -11,7 +11,7 @@ ServerConfig::ServerConfig(rapidjson::Value& json_config)
     }
 }
 
-void ServerConfig::parseConfig(rapidjson::Value& json_config) {
+void ServerConfig::ParseConfig(rapidjson::Value& json_config) {
     if (!json_config.HasMember("config") || !json_config["config"].IsObject()) {
         std::cerr << "[ServerConfig]: The 'config' field is missing or has invalid type" << std::endl;
         return;
